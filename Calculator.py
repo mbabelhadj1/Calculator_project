@@ -1,4 +1,5 @@
-#This function checks if the user input is indeed a number
+#This function checks if the user input is indeed a numbe
+#s
 def check_numbers():
     number = None
     while number == None:
