@@ -1,10 +1,11 @@
 #This function checks if the user input is indeed a numbe
 def check_numbers():
-    number = None
-    while number == None:
+
+    while True:
         try:
             number = float(input("Enter a number\n"))
             return(number)
+            break
         except ValueError:
             print('You did not enter a number. Please enter a number')
 #This function checks if the user input for the operation is either +, -, *, /
